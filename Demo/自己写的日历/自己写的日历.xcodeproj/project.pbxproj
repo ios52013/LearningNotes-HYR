@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94CC5E522019B82400A3C0DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CC5E512019B82400A3C0DF /* AppDelegate.m */; };
+		94CC5E5A2019B82400A3C0DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CC5E592019B82400A3C0DF /* Assets.xcassets */; };
+		94CC5E602019B82400A3C0DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CC5E5F2019B82400A3C0DF /* main.m */; };
+		94CC5E6A2019B82400A3C0DF /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CC5E692019B82400A3C0DF /* ______Tests.m */; };
+		94CC5E752019B82400A3C0DF /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CC5E742019B82400A3C0DF /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94CC5E662019B82400A3C0DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94CC5E452019B82400A3C0DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CC5E4C2019B82400A3C0DF;
+			remoteInfo = "自己写的日历";
+		};
+		94CC5E712019B82400A3C0DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94CC5E452019B82400A3C0DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CC5E4C2019B82400A3C0DF;
+			remoteInfo = "自己写的日历";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94CC5E4D2019B82400A3C0DF /* 自己写的日历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自己写的日历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CC5E502019B82400A3C0DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94CC5E512019B82400A3C0DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94CC5E592019B82400A3C0DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94CC5E5E2019B82400A3C0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CC5E5F2019B82400A3C0DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94CC5E652019B82400A3C0DF /* 自己写的日历Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自己写的日历Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CC5E692019B82400A3C0DF /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		94CC5E6B2019B82400A3C0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CC5E702019B82400A3C0DF /* 自己写的日历UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自己写的日历UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CC5E742019B82400A3C0DF /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		94CC5E762019B82400A3C0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94CC5E4A2019B82400A3C0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CC5E622019B82400A3C0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CC5E6D2019B82400A3C0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94CC5E442019B82400A3C0DF = {
+			isa = PBXGroup;
+			children = (
+				94CC5E4F2019B82400A3C0DF /* 自己写的日历 */,
+				94CC5E682019B82400A3C0DF /* 自己写的日历Tests */,
+				94CC5E732019B82400A3C0DF /* 自己写的日历UITests */,
+				94CC5E4E2019B82400A3C0DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CC5E4E2019B82400A3C0DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94CC5E4D2019B82400A3C0DF /* 自己写的日历.app */,
+				94CC5E652019B82400A3C0DF /* 自己写的日历Tests.xctest */,
+				94CC5E702019B82400A3C0DF /* 自己写的日历UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94CC5E4F2019B82400A3C0DF /* 自己写的日历 */ = {
+			isa = PBXGroup;
+			children = (
+				94CC5E502019B82400A3C0DF /* AppDelegate.h */,
+				94CC5E512019B82400A3C0DF /* AppDelegate.m */,
+				94CC5E592019B82400A3C0DF /* Assets.xcassets */,
+				94CC5E5E2019B82400A3C0DF /* Info.plist */,
+				94CC5E5F2019B82400A3C0DF /* main.m */,
+			);
+			path = "自己写的日历";
+			sourceTree = "<group>";
+		};
+		94CC5E682019B82400A3C0DF /* 自己写的日历Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94CC5E692019B82400A3C0DF /* ______Tests.m */,
+				94CC5E6B2019B82400A3C0DF /* Info.plist */,
+			);
+			path = "自己写的日历Tests";
+			sourceTree = "<group>";
+		};
+		94CC5E732019B82400A3C0DF /* 自己写的日历UITests */ = {
+			isa = PBXGroup;
+			children = (
+				94CC5E742019B82400A3C0DF /* ______UITests.m */,
+				94CC5E762019B82400A3C0DF /* Info.plist */,
+			);
+			path = "自己写的日历UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94CC5E4C2019B82400A3C0DF /* 自己写的日历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CC5E792019B82400A3C0DF /* Build configuration list for PBXNativeTarget "自己写的日历" */;
+			buildPhases = (
+				94CC5E492019B82400A3C0DF /* Sources */,
+				94CC5E4A2019B82400A3C0DF /* Frameworks */,
+				94CC5E4B2019B82400A3C0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自己写的日历";
+			productName = "自己写的日历";
+			productReference = 94CC5E4D2019B82400A3C0DF /* 自己写的日历.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94CC5E642019B82400A3C0DF /* 自己写的日历Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CC5E7C2019B82400A3C0DF /* Build configuration list for PBXNativeTarget "自己写的日历Tests" */;
+			buildPhases = (
+				94CC5E612019B82400A3C0DF /* Sources */,
+				94CC5E622019B82400A3C0DF /* Frameworks */,
+				94CC5E632019B82400A3C0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CC5E672019B82400A3C0DF /* PBXTargetDependency */,
+			);
+			name = "自己写的日历Tests";
+			productName = "自己写的日历Tests";
+			productReference = 94CC5E652019B82400A3C0DF /* 自己写的日历Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94CC5E6F2019B82400A3C0DF /* 自己写的日历UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CC5E7F2019B82400A3C0DF /* Build configuration list for PBXNativeTarget "自己写的日历UITests" */;
+			buildPhases = (
+				94CC5E6C2019B82400A3C0DF /* Sources */,
+				94CC5E6D2019B82400A3C0DF /* Frameworks */,
+				94CC5E6E2019B82400A3C0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CC5E722019B82400A3C0DF /* PBXTargetDependency */,
+			);
+			name = "自己写的日历UITests";
+			productName = "自己写的日历UITests";
+			productReference = 94CC5E702019B82400A3C0DF /* 自己写的日历UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94CC5E452019B82400A3C0DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "钟文成(外包)";
+				TargetAttributes = {
+					94CC5E4C2019B82400A3C0DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					94CC5E642019B82400A3C0DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94CC5E4C2019B82400A3C0DF;
+					};
+					94CC5E6F2019B82400A3C0DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94CC5E4C2019B82400A3C0DF;
+					};
+				};
+			};
+			buildConfigurationList = 94CC5E482019B82400A3C0DF /* Build configuration list for PBXProject "自己写的日历" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94CC5E442019B82400A3C0DF;
+			productRefGroup = 94CC5E4E2019B82400A3C0DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94CC5E4C2019B82400A3C0DF /* 自己写的日历 */,
+				94CC5E642019B82400A3C0DF /* 自己写的日历Tests */,
+				94CC5E6F2019B82400A3C0DF /* 自己写的日历UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94CC5E4B2019B82400A3C0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CC5E5A2019B82400A3C0DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CC5E632019B82400A3C0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CC5E6E2019B82400A3C0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94CC5E492019B82400A3C0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CC5E602019B82400A3C0DF /* main.m in Sources */,
+				94CC5E522019B82400A3C0DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CC5E612019B82400A3C0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CC5E6A2019B82400A3C0DF /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CC5E6C2019B82400A3C0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CC5E752019B82400A3C0DF /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94CC5E672019B82400A3C0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CC5E4C2019B82400A3C0DF /* 自己写的日历 */;
+			targetProxy = 94CC5E662019B82400A3C0DF /* PBXContainerItemProxy */;
+		};
+		94CC5E722019B82400A3C0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CC5E4C2019B82400A3C0DF /* 自己写的日历 */;
+			targetProxy = 94CC5E712019B82400A3C0DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94CC5E772019B82400A3C0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94CC5E782019B82400A3C0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94CC5E7A2019B82400A3C0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自己写的日历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pa.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		94CC5E7B2019B82400A3C0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自己写的日历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pa.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		94CC5E7D2019B82400A3C0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自己写的日历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pa.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自己写的日历.app/自己写的日历";
+			};
+			name = Debug;
+		};
+		94CC5E7E2019B82400A3C0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自己写的日历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pa.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自己写的日历.app/自己写的日历";
+			};
+			name = Release;
+		};
+		94CC5E802019B82400A3C0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自己写的日历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pa.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "自己写的日历";
+			};
+			name = Debug;
+		};
+		94CC5E812019B82400A3C0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "自己写的日历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pa.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "自己写的日历";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94CC5E482019B82400A3C0DF /* Build configuration list for PBXProject "自己写的日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CC5E772019B82400A3C0DF /* Debug */,
+				94CC5E782019B82400A3C0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CC5E792019B82400A3C0DF /* Build configuration list for PBXNativeTarget "自己写的日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CC5E7A2019B82400A3C0DF /* Debug */,
+				94CC5E7B2019B82400A3C0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CC5E7C2019B82400A3C0DF /* Build configuration list for PBXNativeTarget "自己写的日历Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CC5E7D2019B82400A3C0DF /* Debug */,
+				94CC5E7E2019B82400A3C0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CC5E7F2019B82400A3C0DF /* Build configuration list for PBXNativeTarget "自己写的日历UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CC5E802019B82400A3C0DF /* Debug */,
+				94CC5E812019B82400A3C0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94CC5E452019B82400A3C0DF /* Project object */;
+}
